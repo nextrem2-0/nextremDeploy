@@ -7,6 +7,5 @@ sudo chmod -R 777 *
 mv ./nextremDeploy/*.sh ./nextrem
 cd ./nextrem
 
-
-sudo sh ./deployServe.sh
 sudo sh ./deploy.sh
+sudo sh ./deployServe.sh
