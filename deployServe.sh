@@ -1,6 +1,5 @@
 #!/bin/bash
-sudo docker container stop nextrem_api
-sudo docker container rm nextrem_api
+
 sudo rm -rf ./api
 git clone -b master https://github.com/nextrem2-0/nextremServidor.git ./api
 

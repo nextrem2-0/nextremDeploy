@@ -1,9 +1,4 @@
-sudo docker stop nextrem_mysql
 
-sudo docker stop nextrem_site 
-
-sudo docker rm nextrem_mysql
-sudo docker rm nextrem_site
 
 
 sudo chmod -R 777 *
