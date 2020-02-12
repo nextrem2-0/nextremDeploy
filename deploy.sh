@@ -24,7 +24,7 @@ sudo chmod -R 777 *
 
 sudo chmod -R 777 *
 cd ./nextremCliente/
-ls
+
 # Build cliente
 DISTPATH="./dist"
 SRCPATH="./src/*"
@@ -53,4 +53,5 @@ sudo docker container run -d -v /opt/nextrem/site:/usr/local/apache2/htdocs  --n
 
 sudo chmod -R 777 *
 cd  ../../
+sudo chmod -R 777 *
 
