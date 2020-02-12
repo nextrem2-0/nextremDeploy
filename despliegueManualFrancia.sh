@@ -18,7 +18,6 @@ cd ./nextrem
 
 sudo sh ./deploy.sh
 sudo sh ./deployServe.sh
-sudo sh ./deployAdmin.sh
 
 cd ../
 sudo rm -R nextremDeploy
