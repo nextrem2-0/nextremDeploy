@@ -5,8 +5,9 @@ sudo chmod -R 777 *
 
 rm -rf nextremSinCompilar
 mkdir nextremSinCompilar
+sudo rm -rf ./site
+sudo rm -rf ./mysql
 cd nextremSinCompilar/
-git clone https://github.com/nextrem2-0/nextremServidor.git
 git clone https://github.com/nextrem2-0/nextremCliente.git
 
 sudo chmod -R 777 *

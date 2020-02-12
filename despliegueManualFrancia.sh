@@ -2,10 +2,10 @@
 
 cd ..
 sudo docker container stop nextrem_mysql
-sudo docker container stop nextrem_site 
+sudo docker container stop nextrem_site
+sudo docker container stop nextrem_api
 sudo docker container rm nextrem_mysql
 sudo docker container rm nextrem_site
-sudo docker container stop nextrem_api
 sudo docker container rm nextrem_api
 
 sudo rm -R nextrem
