@@ -2,5 +2,5 @@ mv ./deployServe.sh ../
 mv ./deploy.sh ../
 
 cd ../
-sh ./deployServe.sh
-sh ./deploy.sh
+sudo sh ./deployServe.sh
+sudo sh ./deploy.sh
