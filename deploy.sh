@@ -12,13 +12,6 @@ git clone https://github.com/nextrem2-0/nextremCliente.git
 
 sudo chmod -R 777 *
 
-
-
-
-
-
-
-sudo chmod -R 777 *
 cd ./nextremCliente/
 
 # Build cliente
