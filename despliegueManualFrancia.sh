@@ -8,6 +8,9 @@ sudo docker container rm nextrem_mysql
 sudo docker container rm nextrem_site
 sudo docker container rm nextrem_api
 
+sudo docker container stop nextrem_admin
+sudo docker container rm nextrem_admin
+
 sudo rm -R nextrem
 mkdir nextrem 
 
