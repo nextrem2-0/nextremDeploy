@@ -1,12 +1,12 @@
 sudo chmod -R 777 *
 
 sudo rm -rf ./admin
-git clone https://github.com/nextrem2-0/nextremDeploy.git
+git clone https://github.com/nextrem2-0/nextremAdmin.git
 
 sudo chmod -R 777 *
 
 
-SRCPATH="./nextremDeploy/*"
+SRCPATH="./nextremAdmin/*"
 DISTPATH="./admin/"
 rm -rf ${DISTPATH}
 mkdir ${DISTPATH}
