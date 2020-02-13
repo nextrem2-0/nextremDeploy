@@ -15,7 +15,7 @@ cp -r ${SRCPATH} ${DISTPATH}
 
 sudo docker container run -d -v /opt/nextrem/admin:/usr/local/apache2/htdocs  --name nextrem_admin --expose 80 -e VIRTUAL_HOST=admin.nextrem.pve2.fpmislata.com -e LETSENCRYPT_HOST=admin.nextrem.pve2.fpmislata.com --net nginx-net httpd:2.4.41
 
-cd  ./nextremDeploy
+cd  ./admin
 npm install
 npm run build
 
